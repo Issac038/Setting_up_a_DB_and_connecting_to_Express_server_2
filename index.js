@@ -2,7 +2,7 @@ const express = require('express');
 const { resolve } = require('path');
 const mongoose = require('mongoose')
 require('dotenv').config()
-const userSchema = require('./schema.js')
+const User = require('./schema.js')
 
 const app = express();
 const port = 3010;
